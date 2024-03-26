@@ -3,6 +3,8 @@ import Swal from 'sweetalert2';
 import { Outlet, Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import logo from '../src/assets/ecommerce.jpg';
+import product1 from  '../src/assets/product/1.jpg';
 
 
 
@@ -25,11 +27,11 @@ const Home = () => {
       }
 
     const storeItems = [
-        {img: "./src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "./src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "./src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "./src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
-        {img: "./src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
+        {img: "./shopping-website/src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: "./shopping-website/src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: "./shopping-website/src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: "./shopping-website/src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: "./shopping-website/src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
         {img: "./src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
         {img: "./src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
         {img: "./src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
@@ -253,7 +255,7 @@ const Home = () => {
         {/* navbar and header */}
         <nav className="navbar navbar-expand-lg bg-warning fixed-top" style={{width: '100vw'}} >
   <div className="container">
-    <a className="navbar-nav" data-aos="fade-down"><img src="./src/ecommerce.jpg" alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
+    <a className="navbar-nav" data-aos="fade-down"><img src={logo} alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
 
     <button
     data-aos="fade-down"
@@ -449,7 +451,7 @@ const Home = () => {
         <section>
         <footer className="section-p1" id='footer-container'>
             <div className="col" data-aos="fade-right">
-                <img className="footerlogo" src="./src/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
+                <img className="footerlogo" src={logo} alt="" style={{width: '40px', height: '35px'}}/>
                 <h4>Contact</h4>
                 <p>Address:Pepper Road, Hazel Grove, Stockport, Cheshire, SK7 5SA, UK.</p>
                 <p>Phone:+44 2035 143305</p>
