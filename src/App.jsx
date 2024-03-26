@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './Home.jsx';
-import Shop from './shop.jsx';
-import PageNotFound from './PageNotFound/PageNotFound.jsx';
+import Home from './pages/Home.jsx';
+import Shop from './pages/shop.jsx';
+import PageNotFound from './pages/PageNotFound/PageNotFound.jsx';
 
 
 
