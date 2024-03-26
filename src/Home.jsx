@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const Home = () => {
     useEffect(() => {
         AOS.init({
-          duration: 1000
+          duration: 450
         });
       }, []);
 
@@ -25,10 +25,10 @@ const Home = () => {
       }
 
     const storeItems = [
-        {img: "./src/assets/product/1.jpg",brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "./src/assets/product/2.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "./src/assets/product/3.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "./src/assets/product/4.jpg",brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: "./src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: "./src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: "./src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: "./src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
         {img: "./src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
         {img: "./src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
         {img: "./src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
@@ -248,12 +248,12 @@ const Home = () => {
 
 
     return (
-        <div style={{maxWidth: '100%' }}>
+        <div>
 
         {/* navbar and header */}
         <nav className="navbar navbar-expand-lg bg-warning fixed-top" style={{width: '100vw'}} >
   <div className="container">
-    <a className="navbar-nav" data-aos="fade-down"><img src="./src/assets/ecommerce.jpg" alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
+    <a className="navbar-nav" data-aos="fade-down"><img src="./public/ecommerce.jpg" alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
 
     <button
     data-aos="fade-down"
@@ -546,7 +546,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className="d-flex flex-row justify-content-center align-items-center flex-wrap">
-                                            <div className='flex-sm-row' style={{ width: "50px" }}>
+                                            <div className='flex-sm-row' >
                                                 <div  style={{display: "flex", justifyContent: "center", alignSelf:"center", }}>
                                                     <div><button onClick={() => decrementCartQuantity(index)} style={{width: "20px", height: '20px', borderRadius: "50px", border: "2px solid black", display: "flex", justifyContent: "center", alignItems: "center"}}>-</button></div>
                                                     <div>

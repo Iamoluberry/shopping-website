@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 function Shop() {
     useEffect(() => {
         AOS.init({
-          duration: 1000
+          duration: 450
         });
       }, []);
 
@@ -394,7 +394,7 @@ Swal.fire({
                                             </div>
                                         </div>
                                         <div className="d-flex flex-row justify-content-center align-items-center flex-wrap">
-                                            <div className='flex-sm-row' style={{ width: "50px" }}>
+                                            <div className='flex-sm-row'>
                                                 <div  style={{display: "flex", justifyContent: "center", alignSelf:"center", }}>
                                                     <div><button onClick={() => decrementCartQuantity(index)} style={{width: "20px", height: '20px', borderRadius: "50px", border: "2px solid black", display: "flex", justifyContent: "center", alignItems: "center"}}>-</button></div>
                                                     <div>
