@@ -27,22 +27,22 @@ const Home = () => {
       }
 
     const storeItems = [
-        {img: "./shopping-website/src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "./shopping-website/src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "./shopping-website/src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "./shopping-website/src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
-        {img: "./shopping-website/src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
-        {img: "./src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
-        {img: "./src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
-        {img: "./src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
-        {img: "./src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
-        {img: "./src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
-        {img: "./src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
-        {img: "./src/assets/new-arrivals/4.jpg", brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
-        {img: "./src/assets/new-arrivals/5.jpg", brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
-        {img: "./src/assets/new-arrivals/6.jpg", brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
-        {img: "./src/assets/new-arrivals/7.jpg", brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
-        {img: "./src/assets/new-arrivals/8.jpg", brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
+        {img: "src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: "src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: "src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: "src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: "src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
+        {img: "src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
+        {img: "src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
+        {img: "src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
+        {img: "src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
+        {img: "src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
+        {img: "src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
+        {img: "src/assets/new-arrivals/4.jpg", brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
+        {img: "src/assets/new-arrivals/5.jpg", brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
+        {img: "src/assets/new-arrivals/6.jpg", brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
+        {img: "src/assets/new-arrivals/7.jpg", brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
+        {img: "src/assets/new-arrivals/8.jpg", brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
         ];
                     const featuredProduct = storeItems.slice(0, 8);
                     const newArivalProduct = storeItems.slice(8, 16);
@@ -296,34 +296,34 @@ const Home = () => {
         {/* features */}
         <section id="feature" className="section-p1">
             <div className="fe-box"  data-aos="fade-right">
-                <img src="./src/assets/features/f1.JPG" alt=""/>
+                <img src="src/assets/features/f1.JPG" alt=""/>
                 <h6>Free Shipping</h6>
             </div>
         
         
             <div className="fe-box" data-aos="fade-up">
-                <img src="./src/assets/features/f2.JPG" alt=""/>
+                <img src="src/assets/features/f2.JPG" alt=""/>
                 <h6>Product Reviews</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-down">
-                <img src="./src/assets/features/f3.JPG" alt=""/>
+                <img src="src/assets/features/f3.JPG" alt=""/>
                 <h6>Branded</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-down">
-                <img src="./src/assets/features/f4.JPG" alt=""/>
+                <img src="src/assets/features/f4.JPG" alt=""/>
                 <h6>Clear Polices</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-up">
-                <img src="./src/assets/features/f5.JPG" alt=""/>
+                <img src="src/assets/features/f5.JPG" alt=""/>
                 <h6>Customer Support</h6>
             </div>
         
            
             <div className="fe-box" data-aos="fade-left">
-                <img src="./src/assets/features/f6.JPG" alt=""/>
+                <img src="src/assets/features/f6.JPG" alt=""/>
                 <h6>Security</h6>
             </div>
         
@@ -490,11 +490,11 @@ const Home = () => {
                 <h4>Install App</h4>
                 <p>Get app on Apple store or Play store</p>
                 <div className="row">
-                    <img src="./src/assets/app store.JPG" alt=""/>
-                    <img src="./src/assets/play store.JPG" alt=""/>
+                    <img src="src/assets/app store.JPG" alt=""/>
+                    <img src="src/assets/play store.JPG" alt=""/>
                 </div>
                 <p>Secured Payment Getways</p>
-                <img src="./src/assets/payment.JPG" alt=""/>
+                <img src="src/assets/payment.JPG" alt=""/>
             </div>
         </footer>
 
@@ -580,7 +580,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <div className="d-flex justify-content-between align-items-center mb-4">
                                     <h5 className="mb-0">Card details</h5>
-                                    <img src="./src/assets/ecommerce.jpg" className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
+                                    <img src="src/assets/ecommerce.jpg" className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
                                     
                                     </div>
                                     <p className="small mb-2">Card type</p>

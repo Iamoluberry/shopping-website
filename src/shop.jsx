@@ -23,22 +23,22 @@ function Shop() {
       }
 
     const storeItems = [
-        {img: "./src/assets/product/1.jpg",brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "./src/assets/product/2.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "./src/assets/product/3.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "./src/assets/product/4.jpg",brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
-        {img: "./src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
-        {img: "./src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
-        {img: "./src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
-        {img: "./src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
-        {img: "./src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
-        {img: "./src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
-        {img: "./src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
-        {img: "./src/assets/new-arrivals/4.jpg", brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
-        {img: "./src/assets/new-arrivals/5.jpg", brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
-        {img: "./src/assets/new-arrivals/6.jpg", brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
-        {img: "./src/assets/new-arrivals/7.jpg", brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
-        {img: "./src/assets/new-arrivals/8.jpg", brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
+        {img: "src/assets/product/1.jpg",brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: "src/assets/product/2.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: "src/assets/product/3.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: "src/assets/product/4.jpg",brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: "src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
+        {img: "src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
+        {img: "src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
+        {img: "src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
+        {img: "src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
+        {img: "src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
+        {img: "src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
+        {img: "src/assets/new-arrivals/4.jpg", brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
+        {img: "src/assets/new-arrivals/5.jpg", brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
+        {img: "src/assets/new-arrivals/6.jpg", brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
+        {img: "src/assets/new-arrivals/7.jpg", brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
+        {img: "src/assets/new-arrivals/8.jpg", brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
         ];
 
 const [cart, setCart] = useState([]);
@@ -297,7 +297,7 @@ Swal.fire({
 <section>
         <footer className="section-p1" id='footer-container'>
             <div className="col" data-aos="fade-right">
-                <img className="footerlogo" src="./src/assets/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
+                <img className="footerlogo" src="src/assets/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
                 <h4>Contact</h4>
                 <p>Address:Pepper Road, Hazel Grove, Stockport, Cheshire, SK7 5SA, UK.</p>
                 <p>Phone:+44 2035 143305</p>
@@ -336,11 +336,11 @@ Swal.fire({
                 <h4>Install App</h4>
                 <p>Get app on Apple store or Play store</p>
                 <div className="row">
-                    <img src="./src/assets/app store.JPG" alt=""/>
-                    <img src="./src/assets/play store.JPG" alt=""/>
+                    <img src="src/assets/app store.JPG" alt=""/>
+                    <img src="src/assets/play store.JPG" alt=""/>
                 </div>
                 <p>Secured Payment Getways</p>
-                <img src="./src/assets/payment.JPG" alt=""/>
+                <img src="src/assets/payment.JPG" alt=""/>
             </div>
         </footer>
 
@@ -426,7 +426,7 @@ Swal.fire({
                                 <div className="card-body">
                                     <div className="d-flex justify-content-between align-items-center mb-4">
                                     <h5 className="mb-0">Card details</h5>
-                                    <img src="./src/assets/ecommerce.jpg" className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
+                                    <img src="src/assets/ecommerce.jpg" className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
                                     
                                     </div>
                                     <p className="small mb-2">Card type</p>
