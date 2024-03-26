@@ -265,9 +265,9 @@ const Home = () => {
 
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav-pills">
 
-        <li data-aos="fade-down" className="nav-item text-center"><a style={{backgroundColor: "#088178", cursor: "pointer"}} className="nav-link" aria-current="page" ><Link style={{color: "#ffc107"}} to="/">Home</Link></a></li>
+        <li data-aos="fade-down" className="nav-item text-center"><a style={{backgroundColor: "#088178", cursor: "pointer"}} className="nav-link" aria-current="page" ><Link style={{color: "#ffc107"}} to="/shopping-website/">Home</Link></a></li>
 
-        <li data-aos="fade-down" className="nav-item text-center"><a className="nav-link" aria-current="page" ><Link style={{color: "#088178", cursor: "pointer"}} to="/shop">Shop</Link></a></li>
+        <li data-aos="fade-down" className="nav-item text-center"><a className="nav-link" aria-current="page" ><Link style={{color: "#088178", cursor: "pointer"}} to="/shopping-website/shop">Shop</Link></a></li>
 
         <li data-aos="fade-down" className="nav-item text-center"><a style={{color: "#088178", cursor: "pointer"}} className="nav-link" aria-current="page" onClick={togglePopup}><i className="fad fa-shopping-cart"></i></a></li>
 

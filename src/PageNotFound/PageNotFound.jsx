@@ -23,7 +23,7 @@ function PageNotFound() {
           <button><i className="fas fa-search"></i></button>
         </div>
         <ul className={styles.menu}>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/shopping-website/">Home</Link></li>
         </ul>
       </div>
       <div data-aos="fade-right"><img className={styles.image} src="https://omjsblog.files.wordpress.com/2023/07/errorimg.png" alt=""/></div>
