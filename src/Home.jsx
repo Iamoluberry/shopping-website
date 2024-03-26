@@ -25,14 +25,14 @@ const Home = () => {
       }
 
     const storeItems = [
-        {img: "./src/assets/product/1.jpg",brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "./src/assets/product/2.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "./src/assets/product/3.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "./src/assets/product/4.jpg",brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
-        {img: "./src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
-        {img: "./src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
-        {img: "./src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
-        {img: "./src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
+        {img: "/src/assets/product/1.jpg",brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: "/src/assets/product/2.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: "/src/assets/product/3.jpg",brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: "/src/assets/product/4.jpg",brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: "/src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
+        {img: "/src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
+        {img: "/src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
+        {img: "/src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
         {img: "./src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
         {img: "./src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
         {img: "./src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
