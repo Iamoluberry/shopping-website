@@ -253,7 +253,7 @@ const Home = () => {
         {/* navbar and header */}
         <nav className="navbar navbar-expand-lg bg-warning fixed-top" style={{width: '100vw'}} >
   <div className="container">
-    <a className="navbar-nav" data-aos="fade-down"><img src="./public/ecommerce.jpg" alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
+    <a className="navbar-nav" data-aos="fade-down"><img src="./src/ecommerce.jpg" alt="Logo" id="nav-logo" style={{width: '40px', height: '35px', cursor: "pointer"}}/></a>
 
     <button
     data-aos="fade-down"
@@ -446,9 +446,10 @@ const Home = () => {
         </section>
                 
         {/* footer */}
+        <section>
         <footer className="section-p1" id='footer-container'>
             <div className="col" data-aos="fade-right">
-                <img className="footerlogo" src="./src/assets/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
+                <img className="footerlogo" src="./src/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
                 <h4>Contact</h4>
                 <p>Address:Pepper Road, Hazel Grove, Stockport, Cheshire, SK7 5SA, UK.</p>
                 <p>Phone:+44 2035 143305</p>
@@ -493,11 +494,12 @@ const Home = () => {
                 <p>Secured Payment Getways</p>
                 <img src="./src/assets/payment.JPG" alt=""/>
             </div>
-        
-            <div className="copyright" >
-                <p>© {new Date().getFullYear()}, Larry's Tech. HTML & CSS Ecommerce Templates.</p>
-            </div>
         </footer>
+
+        <div className="copyright" >
+                <p>© {new Date().getFullYear()}, Larry's Tech. HTML & CSS Ecommerce Templates.</p>
+        </div>
+        </section>
 
 {/* cart */}
 {showPopup && (

@@ -294,7 +294,8 @@ Swal.fire({
 
 
 {/* footer */}
-<footer className="section-p1" id='footer-container'>
+<section>
+        <footer className="section-p1" id='footer-container'>
             <div className="col" data-aos="fade-right">
                 <img className="footerlogo" src="./src/assets/ecommerce.jpg" alt="" style={{width: '40px', height: '35px'}}/>
                 <h4>Contact</h4>
@@ -313,7 +314,7 @@ Swal.fire({
                 </div>
             </div>
         
-            <div className="col" data-aos="fade-ease-out">
+            <div className="col" data-aos="fade-up">
                 <h4>About</h4>
                 <a href="#">About us</a>
                 <a href="#">Delivery Information</a>
@@ -322,7 +323,7 @@ Swal.fire({
                 <a href="#">Contact Us</a>            
             </div>
         
-            <div className="col" data-aos="fade-ease-out">
+            <div className="col" data-aos="fade-up">
                 <h4>My Account</h4>
                 <a href="#">Sign In</a>
                 <a href="#">View Cart</a>
@@ -341,11 +342,12 @@ Swal.fire({
                 <p>Secured Payment Getways</p>
                 <img src="./src/assets/payment.JPG" alt=""/>
             </div>
-        
-            <div className="copyright">
-                <p>© {new Date().getFullYear()}, Larry's Tech. HTML & CSS Ecommerce Templates.</p>
-            </div>
         </footer>
+
+        <div className="copyright" >
+                <p>© {new Date().getFullYear()}, Larry's Tech. HTML & CSS Ecommerce Templates.</p>
+        </div>
+        </section>
 
 {/* cart */}
 {showPopup && (
