@@ -104,9 +104,16 @@ const Home = () => {
             setCart([...cart, itemToAdd]);
             Swal.fire({
                 title: 'Successful',
-                text: 'Item added to cart',
-                icon: 'success',
-                confirmButtonText: 'Cool'
+                text: `${itemToAdd.brandDetails} added to cart`,
+                icon: "success",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Go to cart"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    return setShowPopup(true);
+                }
             });
         }
     }
