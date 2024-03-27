@@ -20,6 +20,8 @@ import newArrival5 from '../src/assets/new-arrivals/5.jpg';
 import newArrival6 from '../src/assets/new-arrivals/6.jpg';
 import newArrival7 from '../src/assets/new-arrivals/7.jpg';
 import newArrival8 from '../src/assets/new-arrivals/8.jpg';
+import newArrival9 from '../src/assets/new-arrivals/9.jpg';
+import newArrival10 from '../src/assets/new-arrivals/10.jpg';
 import feature1 from "../src/assets/features/f1.jpg";
 import feature2 from "../src/assets/features/f2.jpg";
 import feature3 from "../src/assets/features/f3.jpg";
@@ -28,6 +30,7 @@ import feature5 from "../src/assets/features/f5.jpg";
 import feature6 from "../src/assets/features/f6.jpg";
 import appStore from "../src/assets/app store.jpg";
 import playStore from "../src/assets/play store.jpg";
+import payment from "../src/assets/payment.jpg";
 
 
 
@@ -66,9 +69,11 @@ const Home = () => {
         {img: `${newArrival6}`, brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
         {img: `${newArrival7}`, brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
         {img: `${newArrival8}`, brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
+        {img: `${newArrival9}`, brand: 'Yemlays', brandDetails: "Wlisth Luminous Quartz Watch", price: 175, amount: 1},
+        {img: `${newArrival10}`, brand: 'Cuban', brandDetails: "ICED Wrist Watch - Cuban Gold", price: 200, amount: 1},
         ];
-                    const featuredProduct = storeItems.slice(0, 8);
-                    const newArivalProduct = storeItems.slice(8, 16);
+                    const featuredProduct = storeItems.slice(0, 9);
+                    const newArivalProduct = storeItems.slice(9, 18);
 
     const [cart, setCart] = useState([]);
 
@@ -382,11 +387,9 @@ const Home = () => {
         
         {/* banner */}
         <section id="barner" className="section-m1">
-        <div >
             <h4>Repair Services</h4>
             <h2>Enjoy up to <span>50% off</span> Shipping Fees on all t-Shirt & Sneakers</h2>
             <button className="normal">Learn More</button>
-        </div>
         </section>
         
         {/* new arrivals */}
@@ -517,7 +520,7 @@ const Home = () => {
                     <img src={playStore} alt=""/>
                 </div>
                 <p>Secured Payment Getways</p>
-                <img src="src/assets/payment.JPG" alt=""/>
+                <img src={payment} alt=""/>
             </div>
         </footer>
 

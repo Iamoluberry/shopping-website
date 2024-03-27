@@ -22,6 +22,7 @@ import newArrival7 from '../src/assets/new-arrivals/7.jpg';
 import newArrival8 from '../src/assets/new-arrivals/8.jpg';
 import appStore from "../src/assets/app store.jpg";
 import playStore from "../src/assets/play store.jpg";
+import payment from "../src/assets/payment.jpg";
 
 
 function Shop() {
@@ -360,7 +361,7 @@ Swal.fire({
                     <img src={playStore} alt=""/>
                 </div>
                 <p>Secured Payment Getways</p>
-                <img src="src/assets/payment.JPG" alt=""/>
+                <img src={payment} alt=""/>
             </div>
         </footer>
 
