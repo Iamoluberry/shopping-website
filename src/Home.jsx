@@ -5,6 +5,29 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import logo from '../src/assets/ecommerce.jpg';
 import product1 from  '../src/assets/product/1.jpg';
+import product2 from  '../src/assets/product/2.jpg';
+import product3 from  '../src/assets/product/3.jpg';
+import product4 from  '../src/assets/product/4.jpg';
+import product5 from  '../src/assets/product/5.jpg';
+import product6 from  '../src/assets/product/6.jpg';
+import product7 from  '../src/assets/product/7.jpg';
+import product8 from  '../src/assets/product/8.jpg';
+import newArrival1 from '../src/assets/new-arrivals/1.jpg';
+import newArrival2 from '../src/assets/new-arrivals/2.jpg';
+import newArrival3 from '../src/assets/new-arrivals/3.jpg';
+import newArrival4 from '../src/assets/new-arrivals/4.jpg';
+import newArrival5 from '../src/assets/new-arrivals/5.jpg';
+import newArrival6 from '../src/assets/new-arrivals/6.jpg';
+import newArrival7 from '../src/assets/new-arrivals/7.jpg';
+import newArrival8 from '../src/assets/new-arrivals/8.jpg';
+import feature1 from "../src/assets/features/f1.jpg";
+import feature2 from "../src/assets/features/f2.jpg";
+import feature3 from "../src/assets/features/f3.jpg";
+import feature4 from "../src/assets/features/f4.jpg";
+import feature5 from "../src/assets/features/f5.jpg";
+import feature6 from "../src/assets/features/f6.jpg";
+import appStore from "../src/assets/app store.jpg";
+import playStore from "../src/assets/play store.jpg";
 
 
 
@@ -27,22 +50,22 @@ const Home = () => {
       }
 
     const storeItems = [
-        {img: "src/assets/product/1.jpg", brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
-        {img: "src/assets/product/2.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
-        {img: "src/assets/product/3.jpg", brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
-        {img: "src/assets/product/4.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
-        {img: "src/assets/product/5.jpg", brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
-        {img: "src/assets/product/6.jpg", brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
-        {img: "src/assets/product/7.jpg", brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
-        {img: "src/assets/product/8.jpg", brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
-        {img: "src/assets/new-arrivals/1.jpg", brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
-        {img: "src/assets/new-arrivals/2.jpg", brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
-        {img: "src/assets/new-arrivals/3.jpg", brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
-        {img: "src/assets/new-arrivals/4.jpg", brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
-        {img: "src/assets/new-arrivals/5.jpg", brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
-        {img: "src/assets/new-arrivals/6.jpg", brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
-        {img: "src/assets/new-arrivals/7.jpg", brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
-        {img: "src/assets/new-arrivals/8.jpg", brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
+        {img: `${product1}`, brand: 'Nike', brandDetails: "Nike Gold Space Slim Fit Polo Men's", price: 100, amount: 1},
+        {img: `${product2}`, brand: 'Nike', brandDetails: "Nike Dry Fit Challenger Short Men's", price: 90, amount: 1},
+        {img: `${product3}`, brand: 'Nike', brandDetails: "Nike Dry Fit Tight Top Men's", price: 80, amount: 1},
+        {img: `${product4}`, brand: 'Adidas', brandDetails: "ADIDAS SPORTS PERFORMANCE SWEATER", price: 75, amount: 1},
+        {img: `${product5}`, brand: 'Adidas', brandDetails: 'ADIDAS ESSENTIALS EMBROIDERED T-SHIRT', price: 80, amount: 1},
+        {img: `${product6}`, brand: 'Adidas', brandDetails: 'ADIDAS VS PACE SHOES MEN', price: 120, amount: 1},
+        {img: `${product7}`, brand: 'Adidas', brandDetails: 'ADIDAS CORE BRA W BL BT', price: 40, amount: 1},
+        {img: `${product8}`, brand: 'Nike', brandDetails: "Nike Quest 4 Running Men's", price: 168, amount: 1},
+        {img: `${newArrival1}`, brand: 'Adidas', brandDetails: "3-STRIPES SPORT TANK TOP WOMEN", price: 100, amount: 1},
+        {img: `${newArrival2}`, brand: 'Adidas', brandDetails: "FACE MASKS FACE COVERS", price: 35, amount: 1},
+        {img: `${newArrival3}`, brand: 'Adidas', brandDetails: "ADIDAS SPORTS SOCKS", price: 20, amount: 1},
+        {img: `${newArrival4}`, brand: 'Danami', brandDetails: "Danami Throne Of Grace Printed Hoodie", price: 125, amount: 1},
+        {img: `${newArrival5}`, brand: 'Jones Wears', brandDetails: "Jones Wears Marshmello Printed Hoodie", price: 105, amount: 1},
+        {img: `${newArrival6}`, brand: 'Protective', brandDetails: "Anti Blue Light Protective Computer Glasses", price: 15, amount: 1},
+        {img: `${newArrival7}`, brand: 'Yemlays', brandDetails: "Yemlays Men's Casual Shoe", price: 120, amount: 1},
+        {img: `${newArrival8}`, brand: 'Yemlays', brandDetails: "Men's Breathable Lace-up Canvas Sneakers", price: 115, amount: 1},
         ];
                     const featuredProduct = storeItems.slice(0, 8);
                     const newArivalProduct = storeItems.slice(8, 16);
@@ -142,11 +165,11 @@ const Home = () => {
         const continueShopping = () => {
            
             cartDisappear.current.style.marginTop = "100vw";
-            cartDisappear.current.style.transition = "4s ease";
+            cartDisappear.current.style.transition = "2s ease";
     
             setTimeout(() => {
                return setShowPopup(false);
-            }, 4000);
+            }, 1000);
         }
 
     function removeItem(index) {
@@ -296,34 +319,34 @@ const Home = () => {
         {/* features */}
         <section id="feature" className="section-p1">
             <div className="fe-box"  data-aos="fade-right">
-                <img src="src/assets/features/f1.JPG" alt=""/>
+                <img src={feature1} alt=""/>
                 <h6>Free Shipping</h6>
             </div>
         
         
             <div className="fe-box" data-aos="fade-up">
-                <img src="src/assets/features/f2.JPG" alt=""/>
+                <img src={feature2} alt=""/>
                 <h6>Product Reviews</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-down">
-                <img src="src/assets/features/f3.JPG" alt=""/>
+                <img src={feature3} alt=""/>
                 <h6>Branded</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-down">
-                <img src="src/assets/features/f4.JPG" alt=""/>
+                <img src={feature4} alt=""/>
                 <h6>Clear Polices</h6>
             </div>
         
             <div className="fe-box" data-aos="fade-up">
-                <img src="src/assets/features/f5.JPG" alt=""/>
+                <img src={feature5} alt=""/>
                 <h6>Customer Support</h6>
             </div>
         
            
             <div className="fe-box" data-aos="fade-left">
-                <img src="src/assets/features/f6.JPG" alt=""/>
+                <img src={feature6} alt=""/>
                 <h6>Security</h6>
             </div>
         
@@ -442,8 +465,8 @@ const Home = () => {
             </div>
         
             <div className="newsletter-form" data-aos="fade-right">
-                <input type="text" name="" id=""  placeholder="Email"/>
-                <button className="normal">Sign Up</button>
+                <input type="text" name="" id=""  placeholder="Email" style={{height: "50px"}}/>
+                <button className="normal" style={{height: "50px"}}>Sign Up</button>
             </div>
         </section>
                 
@@ -490,8 +513,8 @@ const Home = () => {
                 <h4>Install App</h4>
                 <p>Get app on Apple store or Play store</p>
                 <div className="row">
-                    <img src="src/assets/app store.JPG" alt=""/>
-                    <img src="src/assets/play store.JPG" alt=""/>
+                    <img src={appStore} alt=""/>
+                    <img src={playStore} alt=""/>
                 </div>
                 <p>Secured Payment Getways</p>
                 <img src="src/assets/payment.JPG" alt=""/>
@@ -580,7 +603,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <div className="d-flex justify-content-between align-items-center mb-4">
                                     <h5 className="mb-0">Card details</h5>
-                                    <img src="src/assets/ecommerce.jpg" className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
+                                    <img src={logo} className="img-fluid rounded-3" alt="Logo" style={{width: '40px', height: '35px'}}/>
                                     
                                     </div>
                                     <p className="small mb-2">Card type</p>
