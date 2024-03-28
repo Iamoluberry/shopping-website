@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Swal from 'sweetalert2';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import logo from '../src/assets/ecommerce.jpg';
@@ -35,6 +35,14 @@ import payment from "../src/assets/payment.jpg";
 
 
 const Home = () => {
+
+    // to make page scroll top
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
     useEffect(() => {
         AOS.init({
           duration: 450
